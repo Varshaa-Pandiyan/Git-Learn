@@ -1,0 +1,133 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+ */
+
+
+
+ .heading {
+    font-size: 40px;
+}
+.img1 {
+    width: 50px;
+    height: 50px;
+}
+.img2 {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    bottom: 2px;
+}
+.img3 {
+    width: 60px;
+    height: 70px;
+    position: relative;
+    bottom: 6px;
+}
+#header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    position: relative;
+    bottom: 60px;
+}
+.heading {
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+
+}
+.resumelogo {
+    position: relative;
+    bottom: 20px;
+    left: 180px;
+    /* width: 50px;
+    height: 50px; */
+}
+.resumelogo {
+    width: 120px;
+    height: 120px;
+}
+.cont {
+    background:#003285;
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #2a0845, #6441A5); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #2a0845, #6441A5); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 40px;
+    width: 220px;
+    border-radius: 140px;
+    text-align: center;
+    margin-left: 550px;
+    color: rgb(241, 239, 238);
+    font-size: 20px;
+    border: 1px solid transparent;
+}
+button {
+    position: relative;
+    bottom: 50px;
+}
+.rating {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    height: 40px;
+    width: 630px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    /* word-spacing: 10px; */
+    background-color: gray;
+    position: relative;
+    left: 300px;
+    bottom: -10px;
+    padding-left: 10px;
+    bottom: 240px;
+
+}
+.rating p {
+    margin-left: 20px;
+}
+.rating i {
+    margin-left: 5px;
+    color: yellow;
+}
+.terms{
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+    text-align: center;
+    word-spacing: 1px;
+    margin-left: 400px;
+    position: relative;
+    bottom: 50px;
+    font-size: 16px;
+}
+
+.line{
+    color:blue;
+    text-decoration: underline;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid transparent;
+    width: 500px;
+    position: relative;
+
+    bottom: 200px;
+    left: 90px;
+}
+.last{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 260px;
+    left: 1000px;
+}
+
